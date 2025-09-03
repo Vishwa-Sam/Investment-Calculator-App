@@ -6,12 +6,12 @@ import { type InvestmentInput } from "./user-input/investment-input.model";
 export class InvestmentService {
 
 resultsData = signal<{
-    year: number,
-    interest: number,
-    valueEndOfYear: number,
-    annualInvestment: number,
-    totalInterest: number,
-    totalAmountInvested: number}[] | undefined >(undefined);
+  year: number,
+  interest: number,
+  valueEndOfYear: number,
+  annualInvestment: number,
+  totalInterest: number,
+  totalAmountInvested: number}[] | undefined >(undefined);
     
 calculateInvestmentResults(data: InvestmentInput) {
     

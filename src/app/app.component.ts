@@ -1,6 +1,4 @@
-import { Component, signal } from '@angular/core';
-
-import { type InvestmentInput } from './user-input/investment-input.model';
+import { Component } from '@angular/core';
 
 import { HeaderComponent } from "./header/header.component";
 import { UserInputComponent } from "./user-input/user-input.component";
@@ -12,6 +10,4 @@ import { InvestmentResultsComponent } from "./investment-results/investment-resu
   imports: [HeaderComponent, UserInputComponent, InvestmentResultsComponent],
   templateUrl: './app.component.html',
 })
-export class AppComponent {
-
-}
+export class AppComponent {}

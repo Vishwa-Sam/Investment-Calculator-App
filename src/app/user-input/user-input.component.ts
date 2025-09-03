@@ -10,6 +10,7 @@ import { InvestmentService } from '../investment.service';
   templateUrl: './user-input.component.html',
   styleUrl: './user-input.component.css'
 })
+
 export class UserInputComponent {
   enteredInitialInvestment = signal('0');
   enteredAnnualInvestment = signal('0');
