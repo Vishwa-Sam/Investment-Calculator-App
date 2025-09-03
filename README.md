@@ -1,31 +1,54 @@
-<<<<<<< HEAD
-# EssentialsPractice
+## Basic Investment Calculator App
+A simple investment calculator built using Angular. This app allows users to enter their initial investment, annual investment, investment duration, and expected annual return rate, then calculates and displays the projected investment growth over the entered duration.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0-next.2.
+---
 
-## Development server
+## Features
+## User Inputs:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Initial Investment
 
-## Code scaffolding
+Annual Investment
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Investment Duration (years)
 
-## Build
+Expected Annual Return (%)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Results Display:
 
-## Running unit tests
+Calculates total value for each year.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Shows projected investment growth for the entire duration.
 
-## Running end-to-end tests
+Clear, interactive interface built in Angular.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## How It Works
+Enter initial investment amount, annual investment, duration (in years), and expected return rate.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-=======
-# Investment-Calculator-App
->>>>>>> e2a46a067bb3fd4a7f84cf7f500ea01a23f1fa13
+Click "Calculate".
+
+The app computes and displays the expected growth for each year based on compound interest and the additional annual investments.
+
+---
+
+## Technologies Used
+Angular (standalone components)
+
+TypeScript
+
+Angular Forms
+
+---
+
+## Example Usage
+Initial Investment: $1000
+
+Annual Investment: $500
+
+Duration: 5 years
+
+Expected Return: 7%
+
+The calculator will display your investment value for each year, taking into account compound growth and annual contributions.
